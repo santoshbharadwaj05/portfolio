@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap');
+
+body{
+    margin: 0;
+    color: rgb(221, 64, 221);
+    background-color: black;
+}
+.navbar
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(2, 2, 2);
+    border: solid rgb(204, 57, 57);
+}
+.navbar-left
+{
+    height: 100px;
+    padding-top: 22px;
+    padding-left: 30px;
+    color: rgb(83, 28, 134);
+
+}
+.navbar-right
+{
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.a-element
+{
+    padding: 10px;
+    margin: 10px;
+   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.home
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 81vh;
+    background-color: black;
+
+
+}
+.home-left
+{ color: rgb(186, 248, 248);
+    width: 50vw;
+    padding-left: 150px;
+    text-align: right;
+}
+.home-right
+{
+    width: 50vw;
+    padding-left: 100px;
+}
+.home-h1
+{ color: aliceblue;
+    font-family: "Rubik Scribble", system-ui;
+    font-size: 50px;
+}
+.home-p{
+    font-family: "Cairo", sans-serif;
+}
+.skills
+{
+    padding: 50px;
+    text-align: center;
+}
+.skill-h1
+{
+    font-family: "Rajdhani", sans-serif;
+    color: rgb(118, 184, 184);
+    font-style: italic;
+    font-size: 200px;
+}
+
+.skills-sub
+{
+    display:flex;
+    flex-direction: row;
+    
+}
+.skill-card
+{
+    border: 2px solid rgb(23, 141, 200);
+    margin: 20px;
+    padding: 10px;
+}
+.skill-h1
+{
+    font-family: "Cairo", sans-serif;
+    color: rgb(34, 246, 63);
+
+    font-size: 30px;
+}
+.skill-p
+{
+    font-family: "Cairo", sans-serif;
+    font-size: 25px;
+}
+.sk-h1
+{
+    color: rgb(154, 106, 237);
+}
+.sk-p
+{
+    color: aquamarine;
+}
+.contact-info
+{
+    text-align: center;
+}
+.insta-icon
+{
+    height: 50px;
+padding: 10px;
+
+}
+.social-icons
+{ display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
